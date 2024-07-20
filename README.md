@@ -34,5 +34,11 @@
    If your project has dependencies (listed in pubspec.yaml), install them using:
    ```bash
    dart pub get
-
    
+### Usage
+
+1. **Run the interpreter:**
+   You can run the interpreter by executing the wofa.dart file:
+   ```bash
+   dart run bin/wofa.dart
+This will tokenize, parse, and evaluate the provided source code.
