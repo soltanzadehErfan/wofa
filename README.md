@@ -75,5 +75,5 @@ Contributions are welcome! If you'd like to contribute to the development of the
 3. Make your changes and test them thoroughly.
 4. Submit a pull request with a clear description of your changes.
 
-### Usage
+### Licensed
 This project is licensed under the MIT License - see the LICENSE file for details.
