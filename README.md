@@ -54,15 +54,26 @@ Here is an example of how the interpreter processes a simple source code:
    wofa print x; wofa
    wofa x = x / 12; wofa
    wofa print x; wofa
-
+```
 **Output:**
    ```bash
 5
 6
 0.5
-
+```
 
 ### Usage
 Tokenizer: Converts the source code into tokens.
 Parser: Converts tokens into an AST.
 Evaluator: Evaluates the AST and executes the statements.
+
+### Contributing
+Contributions are welcome! If you'd like to contribute to the development of the Wofa interpreter, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request with a clear description of your changes.
+
+### Usage
+This project is licensed under the MIT License - see the LICENSE file for details.
