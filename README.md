@@ -30,3 +30,9 @@
    ```bash
    git clone https://github.com/soltanzadehErfan/wofa.git
    cd wofa
+2. **Install dependencies:**
+   If your project has dependencies (listed in pubspec.yaml), install them using:
+   ```bash
+   dart pub get
+
+   
