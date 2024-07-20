@@ -42,3 +42,27 @@
    ```bash
    dart run bin/wofa.dart
 This will tokenize, parse, and evaluate the provided source code.
+
+### Example
+Here is an example of how the interpreter processes a simple source code:
+
+**Source Code:**
+   ```bash
+   wofa var x = 5; wofa
+   wofa print x; wofa
+   wofa x = x + 1; wofa
+   wofa print x; wofa
+   wofa x = x / 12; wofa
+   wofa print x; wofa
+
+**Output:**
+   ```bash
+5
+6
+0.5
+
+
+### Usage
+Tokenizer: Converts the source code into tokens.
+Parser: Converts tokens into an AST.
+Evaluator: Evaluates the AST and executes the statements.
